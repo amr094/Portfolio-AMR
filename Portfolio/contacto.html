@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio Ángel Márquez Ruiz</h1>
+        <nav>
+            <ul>
+                <li><a href="Portfolio Ángel Márquez.html">Actualidad</a></li>
+                <li><a href="infancia.html">Pasado</a></li>
+                <li><a href="futuro.html">Futuro</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Formulario de Contacto</h1>
+        <p>Si está interesado en contactar conmigo puede hacerto mediante este sencillo formulario.</p>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="button" onclick="mostrarDatos()">Enviar Formulario</button>
+        </form>
+        <p>Si por algun motivo prefiere contactar de otra manera aqui abajo tiene mis redes sociales. Solo tiene
+            que pulsar sobre la red social que quiera usar y será dirigido a mi perfil de dicha red.
+        </p>
+    </div>
+
+    <script src="formulario.js"></script>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/rm_angel_"><img src="logoInsta.png" alt="instagram" height="100"></a>
+            <a href="https://twitter.com/_rm_angel"><img src="logoTwitter.png" alt="twitter" height="100"></a>
+            <a href="https://www.facebook.com/angel.marquezruiz.90"><img src="logoFacebook.png" alt="facebook" height="100"></a>
+          </div>
+          <div class="social-media-text">
+            <h2>@_rm_angel          @_rm_angel          @Ángel Márquez</h2>
+          </div>
+        <p>&copy; 2024 Portfolio Ángel Márquez Ruiz</p>
+    </footer>
+</body>
+</html>
